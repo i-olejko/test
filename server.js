@@ -2,7 +2,7 @@ import express from 'express';
 import open from 'open';
 
 const port = 3000;
-app = express();
+let app = express();
 
 app.get('*',(req, res)=>{
     res.send('hello from some ');
