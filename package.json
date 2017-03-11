@@ -4,8 +4,13 @@
   "description": "no description ",
   "main": "index.js",
   "scripts": {
+    "prestart": "babel-node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Oleg",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.2",
+    "open": "0.0.5"
+  }
 }
