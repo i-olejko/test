@@ -8,7 +8,7 @@
     "url": "git+https://github.com/i-olejko/test.git"
   },
   "scripts": {
-    "start": "nodemon bin/dev",
+    "start": "nodemon bin/dev.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Oleg",
